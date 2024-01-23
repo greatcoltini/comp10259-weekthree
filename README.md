@@ -21,3 +21,27 @@
 ### Margins
 - mt ; ml ; pb ; pr 
 - my ; px ... 
+
+### Grid system
+- bootstrap works with a 12 item grid system
+
+### Shortcuts for creation
+- in VSCode can do
+div.row>div.col-3*4
+to create one row with 4 columns
+
+div.row.border>div.col-1*12
+
+
+### Responsive media
+- can use different tags to adjust for different screens
+for example, using col-sm-2 makes columns stack in mobile
+
+for example 
+
+col-lg-3 col-md-6 col-sm-12
+
+means that in large, each column will take up 3 / 12 grid slots
+              med  , each column will take up 6 / 12 grid slots
+              small, each column will take up 12 / 12 grid slots
+              
