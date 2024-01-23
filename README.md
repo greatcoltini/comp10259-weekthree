@@ -9,3 +9,15 @@
 3. then you can install your packages
     a. npm install bootstrap
     b. npm install fontawesome
+
+
+## Class Lecturing
+- bootstrap was the first responsive website
+
+### Container vs Container fluid
+- container class has padding
+- container-fluid has no padding; takes full page width
+
+### Margins
+- mt ; ml ; pb ; pr 
+- my ; px ... 
