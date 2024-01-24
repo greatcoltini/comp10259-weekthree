@@ -25,14 +25,6 @@
 ### Grid system
 - bootstrap works with a 12 item grid system
 
-### Shortcuts for creation
-- in VSCode can do
-div.row>div.col-3*4
-to create one row with 4 columns
-
-div.row.border>div.col-1*12
-
-
 ### Responsive media
 - can use different tags to adjust for different screens
 for example, using col-sm-2 makes columns stack in mobile
@@ -44,4 +36,23 @@ col-lg-3 col-md-6 col-sm-12
 means that in large, each column will take up 3 / 12 grid slots
               med  , each column will take up 6 / 12 grid slots
               small, each column will take up 12 / 12 grid slots
-              
+
+## Shortcuts for creation
+- in VSCode can do
+div.row>div.col-3*4
+to create one row with 4 columns
+
+div.row.border>div.col-1*12
+
+
+
+### Sidenote for git pushes:
+1. cd to dir in cmd
+2. git init
+4. git status
+5. git add files
+6. git commit -m "message"
+7. git remote add origin originname
+8. git remote --> should reply origin
+9. git push origin --all
+
